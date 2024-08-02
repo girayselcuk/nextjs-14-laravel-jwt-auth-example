@@ -2,7 +2,7 @@
 
 This project is an example of how to do JSON Web Token (JWT) based session management using Next.js and Laravel. It includes both frontend (Next.js) and backend (Laravel) parts.
 
-## Technologies Used
+## Packages used 
 
 ### Frontend
 - **Next.js**: It is a React-based framework used for server-side rendering (SSR) and static site generation (SSG).
