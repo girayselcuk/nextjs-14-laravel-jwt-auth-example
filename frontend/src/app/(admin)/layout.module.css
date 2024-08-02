@@ -1,0 +1,11 @@
+.adminLayout {
+	height: 100%;
+	display: grid;
+	grid-template-areas: "header header" "sidebar main" "sidebar footer";
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: 270px 1fr;
+
+	& > * {
+		padding: var(--mantine-spacing-lg);
+	}
+}

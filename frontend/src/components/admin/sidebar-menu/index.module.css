@@ -1,0 +1,21 @@
+.sidebarMenu {
+	display: flex;
+	flex-direction: column;
+	gap: var(--mantine-spacing-md);
+}
+
+.sidebarMenuItem {
+	display: flex;
+	align-items: center;
+	gap: var(--mantine-spacing-md);
+	border-radius: var(--mantine-radius-default);
+	padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+	transition: 250ms ease;
+	border: 1px solid transparent;
+
+	&:hover,
+	&.active {
+		font-weight: 600;
+		border: 1px solid var(--mantine-color-default-border);
+	}
+}
